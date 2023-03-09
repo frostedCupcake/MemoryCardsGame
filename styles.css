@@ -74,6 +74,8 @@ body {
   justify-content: center;
   align-items: center;
   width: 34rem;
+  position: relative;
+  z-index: 1000;
 }
 
 .main_disc {
