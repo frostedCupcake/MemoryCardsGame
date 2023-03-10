@@ -16,6 +16,10 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .text-center {
   text-align: center;
 }
@@ -43,4 +47,10 @@ a {
 
   background: #7aebfb;
   filter: blur(190px);
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
