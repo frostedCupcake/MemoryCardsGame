@@ -1,49 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap');
-
 :root {
   --primary: #16213e;
   --secondary: #fd8a8a;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-  font-family: 'Laila', sans-serif;
-}
-
-body {
-  background-color: var(--primary);
-}
-
-.text-center {
-  text-align: center;
-}
-
-.uppercase {
-  text-transform: uppercase;
-}
-
-.px-2 {
-  padding: 0 0.2rem;
-}
-.mx-2 {
-  margin: 0 0.2rem;
-}
-.my-auto {
-  margin: auto 0;
-}
-
-.gradient-1 {
-  position: absolute;
-  width: 200px;
-  height: 438px;
-  top: 0px;
-  right: 0px;
-
-  background: #7aebfb;
-  filter: blur(190px);
 }
 
 .main {
@@ -93,19 +50,26 @@ body {
   padding: 0.8rem 2rem;
   margin: 0.4rem 0;
   font-size: 1.2rem;
-  border-radius: 1px;
+  border-radius: 2px;
   border: none;
+  cursor: pointer;
+  background-color: #eeeeee;
+  color: var(--primary);
+  text-align: center;
 }
+
 .main_button span {
   display: inline-block;
-  min-width: 0.3em;
+  min-width: 0.3rem;
   text-transform: uppercase;
   transition: 0.25s cubic-bezier(0.5, -1, 0.5, 2);
   opacity: 0;
   font-weight: bold;
   transform: translate(0, -20px);
 }
+
 .main_button:before {
+  text-align: center;
   content: attr(data-text);
   position: absolute;
   width: 100%;
