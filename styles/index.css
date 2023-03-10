@@ -111,6 +111,32 @@
   transition-delay: 0.15s;
 }
 
+/* .gamebox {
+  position: relative;
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto auto auto;
+  gap: 0.5em;
+}
+.card-container {
+  position: relative;
+  width: 8em;
+  height: 8em;
+}
+.card-image {
+  width: 100%;
+}
+.card {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.4em solid white;
+  border-radius: 0.8em;
+} */
+
 /* media querys */
 @media screen and (max-width: 480px) {
   .main_img {
