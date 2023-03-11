@@ -37,6 +37,10 @@ const matchCards = (img1, img2) => {
     matchCardNumber += 1;
     totalMoves += 1;
     setTimeout(() => {
+      if (playerLives < 6) {
+        heart[playerLives].classList.remove('hide');
+        playerLives += 1;
+      }
       cardOne.classList.add('disappear');
       cardTwo.classList.add('disappear');
       cardOne.removeEventListener('click', flipCard);
