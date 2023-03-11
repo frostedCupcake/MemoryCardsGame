@@ -131,6 +131,8 @@ const shuffleCard = () => {
     card.classList.remove('disappear');
     let firstDiv = card.querySelector('div');
     firstDiv.style = `background:${colors[i]}`;
+    // let lab = card.querySelector('span');
+    // lab.innerHTML = arr[i];
     card.addEventListener('click', flipCard);
   });
   setTimeout(() => {

@@ -102,6 +102,8 @@ const shuffleCard = () => {
     let imgTag = card.querySelector('img');
     imgTag.src = `../assets/images/img-${arr[i]}.png`;
     card.classList.remove('disappear');
+    // let lab = card.querySelector('span');
+    // lab.innerHTML = arr[i];
     card.addEventListener('click', flipCard);
   });
   setTimeout(() => {

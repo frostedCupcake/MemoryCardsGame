@@ -105,6 +105,8 @@ const shuffleCard = () => {
     card.classList.add('flip');
     let imgTag = card.querySelector('img');
     imgTag.src = `../assets/images/img-${arr[i]}.png`;
+    // let lab = card.querySelector('span');
+    // lab.innerHTML = arr[i];
     card.classList.remove('disappear');
     card.addEventListener('click', flipCard);
   });
