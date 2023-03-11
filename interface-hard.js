@@ -109,7 +109,7 @@ const shuffleCard = () => {
       card.classList.remove('flip');
     });
     disableDeck = false;
-  }, 4000);
+  }, 10000);
 };
 
 setTimeout(() => {
@@ -122,6 +122,6 @@ setTimeout(() => {
       gameOver();
     }
   }, 1000);
-}, 400);
+}, 10000);
 
 shuffleCard();
