@@ -6,7 +6,7 @@
 }
 
 .main_img {
-  width: 20rem;
+  width: 15rem;
 }
 
 .main_heading {
@@ -114,7 +114,7 @@
 /* media querys */
 @media screen and (max-width: 480px) {
   .main_img {
-    width: 15rem;
+    width: 12rem;
   }
   .main_body {
     width: 90%;
