@@ -109,7 +109,7 @@ const shuffleCard = () => {
       card.classList.remove('flip');
     });
     disableDeck = false;
-  }, 2000);
+  }, 4000);
 };
 
 setTimeout(() => {
