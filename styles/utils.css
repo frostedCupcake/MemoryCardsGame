@@ -51,6 +51,12 @@ ul {
 
 .flex-center {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
+}
+
+.hide {
+  display: none !important;
 }
