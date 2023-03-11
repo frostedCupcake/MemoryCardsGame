@@ -28,7 +28,7 @@ const gameOver = () => {
   }
 
   setTimeout(() => {
-    window.location.replace('http://127.0.0.1:5500/index.html');
+    window.location.replace('/');
   }, 5000);
 };
 
